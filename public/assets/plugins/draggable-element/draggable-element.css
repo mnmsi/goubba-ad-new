@@ -1,0 +1,19 @@
+#mydiv {
+    position: fixed;
+    bottom: 25px;
+    right: 90px;
+    z-index: 9;
+    text-align: center;
+    /* background-color: #f1f1f1;
+    border: 1px solid #d3d3d3; */
+}
+
+#mydivheader {
+    padding: 10px;
+    z-index: 10;
+    /* cursor: move; */
+    /* background-color: #2196f3; */
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    color: #fff;
+}
