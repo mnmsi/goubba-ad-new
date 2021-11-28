@@ -216,6 +216,7 @@
                                     </thead>
                                     <tbody>
                                         @foreach ($clickedUsers as $user)
+                                        @if($user->user) 
                                         <tr>
                                             <td>{{ $user->user->id }}</td>
                                             <td>{{ $user->user->name }}</td>
@@ -225,6 +226,7 @@
                                             <td>{{ number_format($user->user->points) }}</td>
                                             <td>{{ number_format($user->user->total_points) }}</td>
                                         </tr>
+                                        @endif
                                         @endforeach
                                     </tbody>
                                     <tfoot>
